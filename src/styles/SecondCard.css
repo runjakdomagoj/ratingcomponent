@@ -1,0 +1,39 @@
+:root {
+    --card: #212832;
+    --circle: #262f38;
+    --white-text: #fcffff;
+    --grey-text: #989fa9;
+    --orange: #fc7613;
+}
+
+.second-card {
+    background: var(--card);
+    padding: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.second-card h1 {
+    color: var(--white-text);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.second-card p {
+    color: var(--grey-text);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.second-card h4 {
+    color: var(--orange);
+    font-weight: 400;
+    font-size: 13px;
+    background: var(--circle);
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+}

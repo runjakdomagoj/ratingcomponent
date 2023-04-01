@@ -1,0 +1,83 @@
+:root {
+    --card: #212832;
+    --circle: #262f38;
+    --white-text: #fcffff;
+    --grey-text: #989fa9;
+    --orange: #fc7613;
+    --button-hover: #7c8898;
+}
+
+.card {
+    background: var(--card);
+    padding: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.card img {
+    background: var(--circle);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.card h1 {
+    color: var(--white-text);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card p {
+    color: var(--grey-text);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ratings button {
+    background: var(--circle);
+    border-radius: 100%;
+    border: none;
+    color: var(--grey-text);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.ratings button:hover {
+    background: var(--button-hover);
+    color: var(--white-text);
+    transition: 0.2s;
+}
+
+.ratings button:focus {
+    background: var(--orange);
+    color: var(--white-text);
+}
+
+.submit {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: var(--orange);
+    color: var(--white-text);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: var(--white-text);
+    color: var(--orange);
+    transition: 0.2s;
+}
